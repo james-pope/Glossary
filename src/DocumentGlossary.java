@@ -38,7 +38,7 @@ public class DocumentGlossary extends ArrayList<GlossaryEntry> {
     public void addAllWords(String str, int num){
         String[] s = str.split("\\W+");
         for (String s1 : s){
-             addWord(str, num);
+             addWord(s1, num);
         }
     }
 }
