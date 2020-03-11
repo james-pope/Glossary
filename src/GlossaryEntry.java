@@ -26,6 +26,7 @@ public class GlossaryEntry {
         ge.add(7);
         ge.add(5);
         ge.add(7);
+        ge.add(12);
         System.out.println(ge);
     }
 }
